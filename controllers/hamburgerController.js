@@ -4,7 +4,7 @@ const hamburger = require("../models/hamburger.js");
 var router = express.Router();
 
 // Import the model (hamburger.js) to use its database functions.
-var hamburger = require("../models/hamburger.js");
+// var hamburger = require("../models/hamburger.js");
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
