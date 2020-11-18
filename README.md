@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Eat-Da-Burger!
 
 the MVC design pattern creates a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
@@ -43,3 +44,6 @@ From the terminal, running npm init and npm install produces a package.json, pac
 
 ## License
 [License](https://choosealicense.com/licenses/mit)
+=======
+# Eat-Da-Burger
+>>>>>>> 9d5e8fd420c98bfbe3fd8a26043981c3f9a6b147
