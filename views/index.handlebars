@@ -1,38 +1,32 @@
-<h1>Hamburgers!</h1>
+<h1>EAT-Da-BURGER</h1>
 
-<h2>Hamburgers that are vegetarian:</h2>
+<h2>ORDER UP</h2>
 
 <ul>
   {{#each hamburgers}}
-    {{#unless patty}}
-      {{> hamburgers/hamburger-block patty=true}}
+    {{#unless eaten}}
+      {{> hamburgers/hamburger-block burger=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2>Hamburgers that contain protein:</h2>
+<h2>Burgers Devoured!</h2>
 
 <ul>
   {{#each hamburgers}}
-    {{#if patty}}
-      {{> hamburgers/hamburger-block patty=false}}
+    {{#if eaten}}
+      {{> hamburgers/hamburger-block burger=false}}
     {{/if}}
   {{/each}}
 </ul>
 
-<h2>Add a Hamburger</h2>
+<h2>Order Here</h2>
 <form class="create-form">
 
   <div class="form-group">
-    <label for="patty">Hamburger Types:</label>
-    <input type="text" id="patty" name="name">
+    <label for="eat">Burger Name:</label>
+    <input type="text" id="eat" name="name">
   </div>
 
-  <div class="form-group">
-    <label for="patty">Type of burger-patty?</label><br>
-    <input type="radio" name="patty" value="1"> Vegetarian<br>
-    <input type="radio" name="patty" value="0"> Meat
-  </div>
-
-  <button type="submit">Add burger</button>
+  <button type="submit">Add</button>
 </form>
