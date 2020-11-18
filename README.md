@@ -36,10 +36,9 @@ The each-helper iterates an array, allowing to you access the properties of each
   {{/each}}
 ```
 
-
 ## Installation
 
-From the terminal, running npm init and npm install produces a package.json, package-lock.json and a node_modules folder. The application is accessed through the terminal by running nodemon .\server.js.
+From the terminal, running npm init and npm install produces a package.json, package-lock.json and a node_modules folder. The application is accessed through the terminal by running nodemon .\server.js. The web-application is also deployed to heroku. In the assets folder are JPG images that will inform the user on how to deploy.
 
 ## License
 [License](https://choosealicense.com/licenses/mit)
