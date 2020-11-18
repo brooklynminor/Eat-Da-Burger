@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Eat-Da-Burger!
 
 the MVC design pattern creates a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
